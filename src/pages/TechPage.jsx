@@ -1,21 +1,21 @@
 function TechPage() {
   return (
-    <div className="flex md:flex-row flex-col md:justify-between w-screen h-screen px-4 md:px-14 bg-white text-black">
-      <div className="flex flex-col gap-4">
-        <p className="border-b-6 text-center text-[200%] lg:text-[900%] leading-none">
-          WORK EXPERIENCE
+    <div className="flex lg:flex-row lg:justify-between items-center justify-evenly gap-8 flex-col w-screen h-dvh px-4 md:px-14">
+      
+      <div className="flex flex-col gap-4 lg:w-1/2">
+        <p className="border-b-6 text-center text-[200%] lg:text-[7vw] leading-none">
+          EXPERIENCE
         </p>
-        <div className="flex flex-col gap-8">
-          <div className="bg-black w-40 h-20" />
-          <div className="bg-black w-40 h-20" />
-          <div className="bg-black w-40 h-20" />
-        </div>
+        <div className="flex flex-col"></div>
       </div>
-      <div className="flex flex-col">
-        <p className="border-b-6 text-center text-[200%] lg:text-[900%] leading-none">
+
+      <div className="flex flex-col lg:w-1/2">
+        <p className="border-b-6 text-center text-[200%] lg:text-[7vw] leading-none">
           TECH STACK
         </p>
+        <div className="w-[80%] h-[80%] bg-black rounded-full"/>
       </div>
+      
     </div>
   );
 }

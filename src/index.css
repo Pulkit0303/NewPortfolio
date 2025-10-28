@@ -2,3 +2,19 @@
 :root{
     font-family: "BBH Sans Bogle", sans-serif;
 }
+*{
+  cursor: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(24, 23, 23); 
+  border-radius: 9999px;
+}
