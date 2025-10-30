@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 :root{
     font-family: "BBH Sans Bogle", sans-serif;
+    background-color: black;
+    color: white;
 }
 *{
   cursor: none;
@@ -11,10 +13,10 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: white; 
+  background: black; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(24, 23, 23); 
+  background-color: rgb(56, 55, 55); 
   border-radius: 9999px;
 }

@@ -17,7 +17,7 @@ function HomePage() {
       {/* TITLE */}
       <div className="flex flex-row justify-center">
         <div className="flex flex-col w-fit">
-          <p className="text-[11vw] leading-none scale-y-120">FRONTEND DEVELOPER</p>
+          <p className="text-[11vw] leading-none">FRONTEND DEVELOPER</p>
           <p className="text-end tracking-[0.6em] leading-none lg:tracking-[1em] font-mono text-[3vw] lg:text-[1.5vw]">
             BASED IN INDIA
           </p>
@@ -32,7 +32,7 @@ function HomePage() {
           <p>/ UI DESIGNER</p>
         </div>
         <img
-          className="w-53 h-70 md:w-75 md:h-100 lg:w-90 lg:h-120 bg-black shadow-[10px_10px_4px_0px_rgba(0,0,0,0.2)]"
+          className="w-53 h-70 md:w-75 md:h-100 lg:w-90 lg:h-120 bg-black shadow-[10px_10px_2px_0px_rgba(255,255,255,0.2)]"
           src={Picture}
           alt="Picture"
         />

@@ -1,12 +1,13 @@
-import ContactMe from "../assets/contactme.svg";
-import { motion } from "framer-motion";
+import ContactMe from "../assets/contactme.svg"
+import { motion } from "framer-motion"
 
 function PageLinks(props) {
 
   const handleClick = (e) => {
     e.preventDefault();
     props.scrollRef?.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  }
+
   return (
     <motion.div
       onClick={handleClick}

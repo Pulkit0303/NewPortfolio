@@ -47,7 +47,7 @@ function App() {
     <CursorProvider value={{mouseEntered,mouseLeaved}}>
       <div className="h-dvh overflow-y-scroll overflow-x-hidden snap-y snap-mandatory scroll-smooth">
         <motion.div
-          className="xl:block hidden fixed top-0 left-0 h-8 w-8 bg-black rounded-full pointer-events-none mix-blend-difference"
+          className="xl:block hidden fixed top-0 left-0 h-8 w-8 bg-white rounded-full pointer-events-none mix-blend-difference"
           variants={variants}
           animate={cursorVariant}
         />
