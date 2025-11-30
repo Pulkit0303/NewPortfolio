@@ -5,9 +5,8 @@ import Git from './Git.svg?react';
 import GitHubActions from './GitHub Actions.svg?react';
 import GitHub from './github.svg?react';
 import Terraform from './HashiCorp Terraform.svg?react';
-import JavaScript from './JavaScript.svg?react';
 import Jenkins from './Jenkins.svg?react';
-import Linux from './Linux.svg?react';
+import NextJS from './NextJS.svg?react';
 import ReactIcon from './React.svg?react';
 import TailwindCSS from './Tailwind CSS.svg?react';
 
@@ -20,9 +19,8 @@ export {
   GitHubActions,
   GitHub,
   Terraform,
-  JavaScript,
   Jenkins,
-  Linux,
+  NextJS,
   ReactIcon,
   TailwindCSS
 };
